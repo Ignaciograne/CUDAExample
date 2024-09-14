@@ -5,31 +5,31 @@
 
 Para compilar el programa vecadd, utiliza el siguiente comando en la terminal:
 
-bash
+```bash
 nvcc -o vecadd vecadd.cu
-
+```
 
 ## Ejecución
 
 Para ejecutar el programa vecadd, utiliza el siguiente comando en la terminal:
 
-bash
+```bash
 ./vecadd <vector_size> <block_size>
-
+```
 
 ## Scripts
 
 Tienes un script run_vecadd_tests.sh para ejecutar los tests de vecadd.cu. Pero, primero tienes que darle permisos de ejecución a este script.
 
-bash
+```bash
 chmod +x run_vecadd_tests.sh
-
+```
 
 Para ejecutar el script run_vecadd_tests.sh, utiliza el siguiente comando en la terminal:
 
-bash
+```bash
 ./run_vecadd_tests.sh
-
+```
 
 # Para ejecutar el ejemplo de multiplicación de matrices
 
